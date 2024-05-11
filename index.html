@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/59cb4ea012.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="contenair">
+            <nav class="bar">
+                <img class="bg-img" src="images/my-logo4.png" alt="logo" width="200px">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About-section">About</a></li>
+                    <li><a href="#Portfolio-section">Portfolio </a></li>
+                    <li><a href="#Service-section">Service</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark"  id="close"></i>
+                </ul>
+                <i class="fa-solid fa-bars"  id="sideMenu"></i>
+            </nav>
+            <div class="Hero-text">
+                <p id="changingText"><span id="cursor"></span></p>
+                <h1>I'm, <span>M M Wazir Kazimi</span></h1>
+                <p>From Bengaluru,Karnataka,India</p>
+                <a href="#About-section"><button class="ab-btn">Learn About Me</button></a>
+            </div>
+        </div>
+    </div>
+    <!-----------------------About Section------------------------------>
+    <div id="About-section">
+        <div  class="container">
+            <div class="row">
+            <div class="col-1"> <img loading="lazy" src="images/my-img.jpg" alt="My Pic"></div>
+            <div class="col-2">
+                <h2>About Me</h2>
+                <p>Hello there! 👋 I'm M M Wazir Kazimi, a dedicated developer with a knack for HTML, CSS, JavaScript,
+                    and C. My interests extend beyond the ordinary into the realms of artificial intelligence, game
+                    development, and the exciting worlds of augmented reality (AR) and mixed reality (MR) technologies.
+                    Additionally, I'm deeply passionate about web development and creating beautiful, functional web
+                    applications.
+                    <h3>Areas of Interest</h3>
+                    <ul>
+                    <li><i class="fa-solid fa-code"></i>  Web Development: Creating beautiful and functional web applications is another area where I thrive.I'm proficient in HTML, CSS, and JavaScript, and I love staying up-to-date with the latest web technologies and trends.</li>
+                    <li>
+                        <i class="fa-solid fa-robot"></i>  
+                        Artificial Intelligence: The boundless potential of AI captivates me. I delve into applications like natural language processing, computer vision, and machine learning, constantly seeking to push the
+                    boundaries of what's possible.</li>
+                    <li><i class="fa-solid fa-gamepad"></i>
+                        Game Development: Crafting immersive gaming experiences is a passion of mine. Whether it's experimenting with game engines, diving into graphics programming, or refining gameplay mechanics,I'm always eager to explore new horizons in this dynamic field.</li>
+                    <li>
+                        <i class="fa-solid fa-vr-cardboard"></i>
+                        Augmented & Mixed Reality: The fusion of digital and physical worlds in AR and MR technologiesfascinates me. I'm enthusiastic about exploring their potential across various domains, from entertainment and education to healthcare and beyond.</li></ul></p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('exp')">Experiences</p>
+                        <p class="tab-links" onclick="opentab('edu')">Education</p>
+                    </div>
+                    <div class="tab-container active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Dev</span><br>Devlop the websites.</li>
+                            <li><span>UI/UX</span><br>Design Web and App Interface.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="exp">
+                        <ul>
+                            <li><span>Currently</span><br>Looking for an Intership.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-container" id="edu">
+                        <ul>
+                            <li><span>2020-21</span><br>10th from Noble School Alipur.</li>
+                            <li><span>2021-23</span><br>PU from GIRPUC.</li>
+                            <li><span>2023-26 (Currently)</span><br>BCA from Dayananda Sagar Institute</li>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+ <!-----------------------Get in touch Section------------------------------>
+<div class="text" id="Contact">
+    <h1>Social Media</h1>
+</div>
+    <div class="social-icons">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/wazir-kazimi-5080aa253/"> <img src="images/linkdin.svg" alt="linkdIn"></a></li>
+            <li><a href="https://twitter.com/09Mmwk"> <img src="images/x.svg" alt="X.com"></a></li>
+            <li><a href="https://github.com/wazirkazimi"><img src="images/icons8-github-94.png" alt="Github"></a></li>
+            <li><a href="https://www.instagram.com/wazirkazim78/"> <img src="images/icons8-instagram-94.png" alt="instagram"></a></li>
+        </ul>
+    </div>
+<!-----------------------Service Section------------------------------>
+<div id="Service-section">
+<div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Our web development services empower your digital presence with innovative solutions tailored to your unique needs. With expertise spanning front-end and back-end development, we craft responsive, user-centric websites that captivate audiences and drive results. From sleek designs to seamless functionality, we ensure your online platform reflects your brand identity and delivers exceptional user experiences across devices. Our team leverages cutting-edge technologies and industry best practices to develop scalable, future-proof solutions that grow with your business. Whether you're launching a new site or enhancing an existing one, trust us to elevate your online presence and leave a lasting impression in the digital landscape.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>UI/UX Design</h2>
+            <p>Our UI/UX service specializes in crafting seamless digital experiences that captivate and delight users. With meticulous attention to detail, we design intuitive interfaces that prioritize usability and aesthetics. Through extensive user research and prototyping, we ensure every interaction is intuitive and engaging. Our expertise spans across web and mobile platforms, delivering cohesive experiences that resonate with your audience. Whether it's creating visually stunning designs or optimizing user flows, we are dedicated to elevating your product to new heights. Partner with us to transform your vision into a compelling digital reality that leaves a lasting impression.</p>
+            <a href="#">Learn More</a>
+        </div>
+        <!-- <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>We specialize in crafting innovative and customized app development solutions tailored to your unique needs. Our expertise spans across various domains, ensuring that your app stands out in the competitive digital landscape. From conceptualization to deployment, we prioritize user-centric design and seamless functionality, delivering an exceptional user experience. Whether you're seeking to build a cutting-edge mobile app, a robust web application, or a scalable backend system, our team of experienced developers is committed to bringing your vision to life. With a focus on quality, efficiency, and client satisfaction, we are your trusted partner in app development, driving success in the digital realm.</p>
+            <a href="#">Learn More</a>
+        </div> -->
+    </div>
+</div>
+</div>
+<!-----------------------Portfolio Section------------------------------>
+<div id="Portfolio-section">
+<div class="container">
+    <h1 class="sub-title">My PortFolio</h1>
+    <div class="work-list">
+        <div>
+            <div class="work" >
+                <img loading="lazy" src="images/ToDoListapp.png" alt="To Do list app img">
+            <div class="layer">
+                <h3>To Do List app</h3>
+                <p>Streamline your tasks with our intuitive to-do list app. Effortlessly manage your daily agenda, set reminders, and prioritize tasks with ease. Stay organized and boost productivity on the go.</p>
+                <a href="https://github.com/wazirkazimi/To-Do-List"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        </div>
+        <div>
+            <div class="work" >
+                <img loading="lazy" src="images/Weather App.png" alt="">
+            <div class="layer">
+                <h3>Weather App</h3>
+                <p>The weather app is your digital meteorological companion, offering a concise snapshot of atmospheric conditions in a mere glance. With intuitive design, it delivers vital information like temperature, humidity, wind speed, and precipitation probability with effortless precision.</p>
+                <a href="https://github.com/wazirkazimi/Weather-App"><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        </div>
+        <div>
+            <div class="work" >
+                <img loading="lazy" src="images/SpotifyClon.png" alt="">
+            <div class="layer">
+                <h3>Spotify Clon App</h3>
+                <p>The Spotify clone is a music streaming platform that mirrors the functionality and user experience of the popular original service. It boasts a vast library of songs, albums, playlists, and podcasts, catering to a diverse range of musical tastes. Just like its inspiration, the clone offers personalized recommendations based on listening history and preferences, enhancing discoverability and engagement. Users can create their playlists, follow favorite artists, and share music with friends seamlessly.</p>
+                <a href=""><i class="fa-solid fa-link"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<!-----------------------Contact Section------------------------------>
+<div id="contact">
+    <div class="container cc">
+        <div class="row-cc">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <a href="mailto:Mujtabakazimi78@gmail.com"><p><i class="fa-sharp fa-regular fa-envelope"></i>Mujtabakazimi78@gmail.com</p></a>
+                <a href="mailto:mirwazirkazimi@gmail.com"><p><i class="fa-sharp fa-regular fa-envelope"></i>mirwazirkazimi@gmail.com</p></a>
+                <a href="tel:+918296608821"><p><i class="fa-solid fa-phone"></i>+91-8296608821</p></a>
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/wazir-kazimi-5080aa253/"> <img src="images/linkdin.svg" alt="linkdIn"></a></li>
+                        <li><a href="https://twitter.com/09Mmwk"> <img src="images/x.svg" alt="X.com"></a></li>
+                        <li><a href="https://github.com/wazirkazimi"><img src="images/icons8-github-94.png" alt="Github"></a></li>
+                        <li><a href="https://www.instagram.com/wazirkazim78/"> <img src="images/icons8-instagram-94.png" alt="instagram"></a></li>
+                    </ul>
+                </div>
+                <div class="btn">
+                    <a href="My Cv Resume.pdf" download>Download My CV</a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your E-mail" required id="email">
+                    <input type="text" name="Subject" placeholder="Subject" required id="Subject">
+                    <textarea name="Message" id="msg" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="button-2">Submit</button>
+                    <span id="sent"></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright &copy; MMWK. Made with <i style="color: #ff004f;" class="fas fa-heart"></i></p>
+</div>
+<a href="#" class="sticky-btn" id="stickyBtn"><i class="fa-solid fa-arrow-up"></i></a>
+
+
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
